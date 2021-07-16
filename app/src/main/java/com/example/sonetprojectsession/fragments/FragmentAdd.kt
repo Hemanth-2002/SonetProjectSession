@@ -5,20 +5,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.EditText
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.lifecycleScope
 import com.example.sonetprojectsession.R
 import com.example.sonetprojectsession.data.User
-import com.example.sonetprojectsession.data.UserData
-import com.example.sonetprojectsession.data.UserDatabase
 import com.example.sonetprojectsession.databinding.FragmentAddBinding
-import com.example.sonetprojectsession.databinding.FragmentListBinding
 import com.example.sonetprojectsession.repository.UserViewModel
-import kotlinx.coroutines.launch
+
 
 class FragmentAdd : Fragment() {
     lateinit var binding: FragmentAddBinding
